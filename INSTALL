@@ -1,0 +1,5 @@
+This package requires RHPackage
+
+http://www.maths.usyd.edu.au/u/olver/projects/RHPackage.html
+
+Download this package and place the RiemannHilbert folder in the ISTPackage folder.  Each tutorial notebook contains the proper import commands as a header.

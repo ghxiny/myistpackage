@@ -1,0 +1,409 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10783,        400]
+NotebookOptionsPosition[      8021,        302]
+NotebookOutlinePosition[      8441,        319]
+CellTagsIndexPosition[      8398,        316]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["A TODO list for ISTPackage", "Title",
+ CellChangeTimes->{{3.6485545855974913`*^9, 3.648554595737649*^9}}],
+
+Cell[" ", "Text",
+ Editable->False,
+ Selectable->False,
+ CellFrame->{{0, 0}, {0, 3}},
+ ShowCellBracket->False,
+ CellMargins->{{0, 0}, {1, 1}},
+ CellElementSpacings->{"CellMinHeight"->1},
+ CellFrameMargins->0,
+ CellFrameColor->RGBColor[0, 0, 1],
+ CellSize->{Inherited, 5}],
+
+Cell[CellGroupData[{
+
+Cell["Package wide", "Outline1",
+ CellChangeTimes->{{3.648555123087563*^9, 3.648555135191051*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Full install documentation"
+}], "Outline2",
+ CellChangeTimes->{{3.648555138305275*^9, 3.648555147110676*^9}, {
+  3.648555397657634*^9, 3.648555397665751*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Develop heuristic error estimates (improve robustness)"
+}], "Outline2",
+ CellChangeTimes->{{3.6485553992619*^9, 3.648555407729678*^9}, {
+  3.648555495196747*^9, 3.64855551410773*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["KdV", "Outline1",
+ CellChangeTimes->{{3.648554506672654*^9, 3.648554508022746*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["KdV-Tutorial.nb", "Outline2",
+ CellChangeTimes->{{3.6485546212032013`*^9, 3.6485546212103977`*^9}, {
+  3.6485547103342524`*^9, 3.648554733225049*^9}, {3.6485547837480583`*^9, 
+  3.648554797414928*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554803979948*^9, 3.6485548069750338`*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.6485548079656487`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["KdV.nb", "Outline2",
+ CellChangeTimes->{
+  3.6485547115579433`*^9, {3.648554790084291*^9, 3.6485548092509727`*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554813873534*^9, 3.64855481575709*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.648554817165265*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["MKdV", "Outline1",
+ CellChangeTimes->{{3.648554508762239*^9, 3.648554511821621*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["mKdV-Tutorial.nb", "Outline2",
+ CellChangeTimes->{{3.648554820932131*^9, 3.648554832731599*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554834811448*^9, 3.64855484257648*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.6485548438300133`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["mKdV.nb", "Outline2",
+ CellChangeTimes->{{3.648554837291026*^9, 3.64855483876369*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554840236494*^9, 3.648554844709958*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.64855484578214*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Nonlinear Schroedinger (focusing and defocusing)", "Outline1",
+ CellChangeTimes->{{3.648554513346171*^9, 3.6485545189568987`*^9}, {
+   3.648554562169668*^9, 3.648554566401888*^9}, 3.648554616201548*^9}],
+
+Cell[CellGroupData[{
+
+Cell["NLS-Tutorial.nb", "Outline2",
+ CellChangeTimes->{{3.648554848764131*^9, 3.648554855514904*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554856795198*^9, 3.648554858549425*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.648554859292988*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["NLS.nb", "Outline2",
+ CellChangeTimes->{{3.6485548605865183`*^9, 3.648554862642918*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554864324224*^9, 3.6485548657962437`*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.6485548667481747`*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Linear Schroedinger", "Outline1",
+ CellChangeTimes->{{3.6485545198018847`*^9, 3.64855452200179*^9}, {
+   3.648554555665718*^9, 3.6485545556694927`*^9}, 3.6485546174014997`*^9}],
+
+Cell[CellGroupData[{
+
+Cell["LS-Tutorial.nb", "Outline2",
+ CellChangeTimes->{{3.648554933553643*^9, 3.648554940773426*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554942806284*^9, 3.648554944374761*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.6485549455908623`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["LS.nb", "Outline2",
+ CellChangeTimes->{{3.648554947476748*^9, 3.648554948317151*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{{3.648554949870463*^9, 3.648554951934877*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ CheckboxBox[False]]]], "Outline3",
+ CellChangeTimes->{3.6485549530066147`*^9}]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Toda Lattice", "Outline1",
+ CellChangeTimes->{{3.648554609954691*^9, 3.6485546135161552`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Toda-Tutorial.nb", "Outline2",
+ CellChangeTimes->{{3.6485549544550858`*^9, 3.6485549616047297`*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Compress (and hide) reflection coefficient code"
+}], "Outline3",
+ CellChangeTimes->{{3.648554964731408*^9, 3.648554966214126*^9}, 
+   3.648555105809482*^9, {3.648555208976878*^9, 3.648555216216279*^9}, {
+   3.648556152268982*^9, 3.6485561564149847`*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Each example in its own section"
+}], "Outline3",
+ CellChangeTimes->{
+  3.648554967070191*^9, {3.648555225222527*^9, 3.648555246908185*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " References"
+}], "Outline3",
+ CellChangeTimes->{{3.6485552506919603`*^9, 3.6485552622840233`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Toda.nb", "Outline2",
+ CellChangeTimes->{{3.6485549684447803`*^9, 3.648554969220538*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Adaptivity: Decide which parameters can be adaptive"
+}], "Outline3",
+ CellChangeTimes->{{3.648554970775847*^9, 3.64855497203872*^9}, {
+  3.648555271228169*^9, 3.648555291827115*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Check IST at t=0"
+}], "Outline4",
+ CellChangeTimes->{{3.648555716074218*^9, 3.648555724591856*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Subdivide unit circle"
+}], "Outline4",
+ CellChangeTimes->{{3.64855572716185*^9, 3.648555746422328*^9}, 
+   3.648556076283843*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Robustness issues"
+}], "Outline3",
+ CellChangeTimes->{
+  3.648554973125964*^9, {3.648555783895234*^9, 3.648555809120592*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Partial transmission coefficient for large data"
+}], "Outline4",
+ CellChangeTimes->{{3.648555818361186*^9, 3.648555839289072*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Eigenvalues near unit circle"
+}], "Outline4",
+ CellChangeTimes->{{3.6485558415190277`*^9, 3.648555854200775*^9}, {
+  3.648556481855887*^9, 3.648556484500762*^9}}],
+
+Cell[TextData[{
+ Cell[BoxData[
+  CheckboxBox[False]]],
+ " Keep \[OpenCurlyDoubleQuote]initialization\[CloseCurlyDoubleQuote] to \
+allow clearing of saved data"
+}], "Outline4",
+ CellChangeTimes->{{3.648556486118519*^9, 3.648556503068966*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{720, 851},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (December 4, \
+2014)",
+StyleDefinitions->FrontEnd`FileName[{"Utility"}, "Outline.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 111, 1, 92, "Title"],
+Cell[694, 25, 271, 9, 10, "Text"],
+Cell[CellGroupData[{
+Cell[990, 38, 98, 1, 38, "Outline1"],
+Cell[1091, 41, 216, 6, 37, "Outline2"],
+Cell[1310, 49, 241, 6, 34, "Outline2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1588, 60, 89, 1, 38, "Outline1"],
+Cell[CellGroupData[{
+Cell[1702, 65, 207, 3, 35, "Outline2"],
+Cell[1912, 70, 131, 2, 35, "Outline3"],
+Cell[2046, 74, 107, 2, 32, "Outline3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2190, 81, 121, 2, 35, "Outline2"],
+Cell[2314, 85, 128, 2, 35, "Outline3"],
+Cell[2445, 89, 105, 2, 32, "Outline3"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2599, 97, 90, 1, 35, "Outline1"],
+Cell[CellGroupData[{
+Cell[2714, 102, 102, 1, 35, "Outline2"],
+Cell[2819, 105, 128, 2, 35, "Outline3"],
+Cell[2950, 109, 107, 2, 32, "Outline3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3094, 116, 92, 1, 35, "Outline2"],
+Cell[3189, 119, 129, 2, 35, "Outline3"],
+Cell[3321, 123, 104, 2, 32, "Outline3"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[3474, 131, 208, 2, 35, "Outline1"],
+Cell[CellGroupData[{
+Cell[3707, 137, 101, 1, 35, "Outline2"],
+Cell[3811, 140, 129, 2, 35, "Outline3"],
+Cell[3943, 144, 105, 2, 32, "Outline3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4085, 151, 94, 1, 35, "Outline2"],
+Cell[4182, 154, 131, 2, 35, "Outline3"],
+Cell[4316, 158, 107, 2, 32, "Outline3"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[4472, 166, 182, 2, 35, "Outline1"],
+Cell[CellGroupData[{
+Cell[4679, 172, 100, 1, 35, "Outline2"],
+Cell[4782, 175, 129, 2, 35, "Outline3"],
+Cell[4914, 179, 107, 2, 32, "Outline3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5058, 186, 91, 1, 35, "Outline2"],
+Cell[5152, 189, 129, 2, 35, "Outline3"],
+Cell[5284, 193, 107, 2, 32, "Outline3"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5440, 201, 100, 1, 35, "Outline1"],
+Cell[CellGroupData[{
+Cell[5565, 206, 106, 1, 35, "Outline2"],
+Cell[5674, 209, 312, 7, 35, "Outline3"],
+Cell[5989, 218, 197, 6, 32, "Outline3"],
+Cell[6189, 226, 155, 5, 32, "Outline3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6381, 236, 95, 1, 35, "Outline2"],
+Cell[CellGroupData[{
+Cell[6501, 241, 240, 6, 35, "Outline3"],
+Cell[6744, 249, 157, 5, 35, "Outline4"],
+Cell[6904, 256, 187, 6, 32, "Outline4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7128, 267, 183, 6, 35, "Outline3"],
+Cell[7314, 275, 188, 5, 35, "Outline4"],
+Cell[7505, 282, 220, 6, 32, "Outline4"],
+Cell[7728, 290, 241, 6, 32, "Outline4"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
